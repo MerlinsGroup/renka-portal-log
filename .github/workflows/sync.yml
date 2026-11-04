@@ -1,0 +1,34 @@
+# Copies the Renka portal's log (bugs, feature requests, notes) into
+# portal-log.txt in this repo. Lives in MerlinsGroup/renka-portal-log as
+# .github/workflows/sync.yml; source kept in logikalsystem/cloudflare/.
+name: Sync portal log
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes (GitHub may run it a little late)
+  workflow_dispatch:          # "Run workflow" button for an immediate sync
+
+permissions:
+  contents: write
+
+concurrency: portal-log
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the log from the portal
+        env:
+          LOG_EXPORT_SECRET: ${{ secrets.LOG_EXPORT_SECRET }}
+        run: |
+          curl -fsS -H "Authorization: Bearer $LOG_EXPORT_SECRET" \
+            https://renka-portal.pages.dev/log.txt -o portal-log.txt
+      - name: Commit if there are new entries
+        run: |
+          git add portal-log.txt
+          if git diff --cached --quiet; then echo "No new entries."; exit 0; fi
+          git config user.name "renka-portal"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Portal log: new entries"
+          git push
