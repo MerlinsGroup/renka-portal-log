@@ -1,0 +1,8 @@
+RENKA QUOTATION PORTAL - LOG
+Bugs, feature requests and notes from portal users, oldest first.
+Add entries from the Log page in the portal (https://renka-portal.pages.dev/log).
+
+------------------------------------------------------------------------
+#1  OTHER  |  4 Nov 2026, 12:25  |  prabjot@merlinsgroup.co.uk
+
+Log set up. Use this page to report bugs, request features or leave notes. Entries are copied to GitHub (MerlinsGroup/renka-portal-log, portal-log.txt) every 15 minutes.
