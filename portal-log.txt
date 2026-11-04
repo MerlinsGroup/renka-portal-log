@@ -1,6 +1,6 @@
-RENKA QUOTATION PORTAL - LOG
-Bugs, feature requests and notes from portal users, oldest first.
-Add entries from the Log page in the portal (https://renka-portal.pages.dev/log).
+RENKA QUOTE BUILDER - LOG
+Bugs, feature requests and notes from users, oldest first.
+Add entries from the Log page in the quote builder (https://renka-portal.pages.dev/log.html).
 
 ------------------------------------------------------------------------
 #1  OTHER  |  4 Nov 2026, 12:25  |  prabjot@merlinsgroup.co.uk
