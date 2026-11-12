@@ -6,3 +6,18 @@ Add entries from the Log page in the quote builder (https://renka-portal.pages.d
 #1  OTHER  |  4 Nov 2026, 12:25  |  prabjot@merlinsgroup.co.uk
 
 Log set up. Use this page to report bugs, request features or leave notes. Entries are copied to GitHub (MerlinsGroup/renka-portal-log, portal-log.txt) every 15 minutes.
+
+------------------------------------------------------------------------
+#2  FEATURE REQUEST  |  12 Nov 2026, 16:09  |  bev@renka.co.uk
+
+Hi can the pdf be PDF-Xchange Viewer - we don't use Adobe
+
+------------------------------------------------------------------------
+#3  QUESTION  |  12 Nov 2026, 16:13  |  bev@renka.co.uk
+
+how can I retrieve a previous quote without having to input new revised prices again
+
+------------------------------------------------------------------------
+#4  QUESTION  |  12 Nov 2026, 16:15  |  bev@renka.co.uk
+
+where are you getting the frame description from - we would need to change some frames to shaped fixed window - eg Miller Hughes Avon Lea has 3 shaped windows
