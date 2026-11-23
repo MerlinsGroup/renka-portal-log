@@ -21,3 +21,8 @@ how can I retrieve a previous quote without having to input new revised prices a
 #4  QUESTION  |  12 Nov 2026, 16:15  |  bev@renka.co.uk
 
 where are you getting the frame description from - we would need to change some frames to shaped fixed window - eg Miller Hughes Avon Lea has 3 shaped windows
+
+------------------------------------------------------------------------
+#5  QUESTION  |  23 Nov 2026, 10:04  |  bev@renka.co.uk
+
+how do we amend and save the excel sheet then produce the pdf after the amendment
